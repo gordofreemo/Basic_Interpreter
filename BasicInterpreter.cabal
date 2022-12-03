@@ -36,8 +36,9 @@ library
   build-depends:
       base >=4.7 && <5
     , containers >=0.4
-    , mtl >=2.3.1
-    , transformers >=0.6.0.4
+    , mtl >=2.2.2
+    , random >=1.2.1.1
+    , transformers >=0.5.6.2
   default-language: Haskell2010
 
 executable BasicInterpreter-exe
@@ -51,8 +52,9 @@ executable BasicInterpreter-exe
       BasicInterpreter
     , base >=4.7 && <5
     , containers >=0.4
-    , mtl >=2.3.1
-    , transformers >=0.6.0.4
+    , mtl >=2.2.2
+    , random >=1.2.1.1
+    , transformers >=0.5.6.2
   default-language: Haskell2010
 
 test-suite BasicInterpreter-test
@@ -67,6 +69,7 @@ test-suite BasicInterpreter-test
       BasicInterpreter
     , base >=4.7 && <5
     , containers >=0.4
-    , mtl >=2.3.1
-    , transformers >=0.6.0.4
+    , mtl >=2.2.2
+    , random >=1.2.1.1
+    , transformers >=0.5.6.2
   default-language: Haskell2010
